@@ -1,7 +1,7 @@
 # kotlin-springboot
 kotlin-Springboot test
 
-test using maven kotlin to creat a springboot project
+test using maven kotlin to creat a springboot project (deleted kotlin & java source code)
 
 **worked but can not package**
 
