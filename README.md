@@ -6,8 +6,9 @@ test using maven kotlin to creat a springboot project
 **worked but can not package**
 
 error:
-'''
-org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.jetbrains.kotlin:kotlin-maven-plugin:1.2.51:compile (default-cli) on project kotlin-springboot: Compilation failure
+
+
+'''org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.jetbrains.kotlin:kotlin-maven-plugin:1.2.51:compile (default-cli) on project kotlin-springboot: Compilation failure
 java.lang.IllegalStateException: The provided plugin org.jetbrains.kotlin.allopen.AllOpenComponentRegistrar is not compatible with this version of compiler
 	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.<init>(KotlinCoreEnvironment.kt:188)
 	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinCoreEnvironment.<init>(KotlinCoreEnvironment.kt:120)
@@ -122,7 +123,6 @@ Caused by: java.lang.AbstractMethodError: org.jetbrains.kotlin.allopen.AllOpenCo
 	at org.jetbrains.kotlin.maven.K2JVMCompileMojo.execute(K2JVMCompileMojo.java:222)
 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
-	... 21 more
-  '''
+	... 21 more'''
   
   *Tried lots of solution on github/stackOverflow and so on , no one is working*
